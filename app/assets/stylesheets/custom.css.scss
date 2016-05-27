@@ -2,7 +2,33 @@
 @import "bootstrap";
 
 body {
-    padding-top: 52px;
+    background-image: asset-url('personaltrainer.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 150px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+.jumbotron {
+  
+  color: #fff;
+  font-family: 'Helvetica Neue' !important;
+  font-stretch: expanded;
+  
+  text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+
+  h1 {
+    font-size: 35px !important;
+    .lead {
+      font-family: 'Helvetica Neue' !important;
+      font-size: 30px !important;
+    }
+  }
 }
 
 .alert-error {
@@ -11,24 +37,28 @@ border-color: #eed3d7;
 color: #b94a48;
 text-align: left;
 }
+
 .alert-alert, #error_explanation {
 background-color: #f2dede;
 border-color: #ebccd1;
 color: #a94442;
 text-align: left;
 }
+
 .alert-success {
 background-color: #dff0d8;
 border-color: #d6e9c6;
 color: #468847;
 text-align: left;
 }
+
 .alert-notice {
 background-color: #dff0d8;
 border-color: #d6e9c6;
 color: #468847;
 text-align: left;
 }
+
 #error_explanation {
 padding: 15px 15px 15px 30px;
 margin-bottom: 30px;
