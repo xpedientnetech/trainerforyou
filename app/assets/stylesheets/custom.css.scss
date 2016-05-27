@@ -2,6 +2,16 @@
 @import "bootstrap";
 
 body {
+   background-color: white;
+    
+}
+
+.jumbotron {
+    height: 50px;
+    opacity: 0;
+}
+
+.imgf {
     background-image: asset-url('personaltrainer.jpg');
     background-size:contain;
     background-repeat: no-repeat;
@@ -11,25 +21,8 @@ body {
     padding-right: 150px;
     margin-left: 0px;
     margin-right: 0px;
-    
 }
 
-.jumbotron {
-  
-  color: #fff;
-  font-family: 'Helvetica Neue' !important;
-  font-stretch: expanded;
-  
-  text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
-
-  h1 {
-    font-size: 35px !important;
-    .lead {
-      font-family: 'Helvetica Neue' !important;
-      font-size: 30px !important;
-    }
-  }
-}
 
 .alert-error {
 background-color: #f2dede;
