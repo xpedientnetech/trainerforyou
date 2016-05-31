@@ -2,27 +2,18 @@
 @import "bootstrap";
 
 body {
-   background-color: white;
-    
+    padding-top: 52px;
 }
 
 .jumbotron {
-    height: 50px;
-    opacity: 0;
-}
-
-.imgf {
-    background-image: asset-url('personaltrainer.jpg');
-    background-size:contain;
+    background-image: asset-url("personaltrainer.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    padding-right: 150px;
-    margin-left: 0px;
-    margin-right: 0px;
+    background-attachment: fixed;
+    padding-bottom: 350px;
+    margin-top: 2px;
+    text-align: center;
 }
-
 
 .alert-error {
 background-color: #f2dede;

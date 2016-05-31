@@ -29,7 +29,7 @@ data-target="#bs-example-navbar-collapse-1">
     <li><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></li>
     <div class="navbar-right">
       <p class="navbar-text">
-        Signed in as <%= "#{current_user.firstname}" %>
+        Signed in as <%= "#{current_user.first_name}" %>
       </p>
     </div>
      <% else %>
