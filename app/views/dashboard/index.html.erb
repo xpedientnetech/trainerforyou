@@ -1,10 +1,19 @@
-<div class="jumbotron">
+<body class="body1">
+<link href='https://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
+<div class="">
     
     <h1>Workout Lounge!</h1>
     <p>Share your workouts to your friends and family.</p>
 
-</div>
+    <%=  form_tag(search_dashboard_path, class: "navbar-form navbar-left", role: "search") do %>
+  <div class="form-group">
+    <%= text_field_tag :search_name, nil, placeholder: "Search for friends", class: "form-control"  %>
+  </div>
+   <%= submit_tag "Search", class: "btn btn-default" %>
+  <% end %>
 
+</div>
+</body>
 
 <% if user_signed_in? %>
 <div class="row">

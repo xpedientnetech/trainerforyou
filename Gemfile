@@ -43,6 +43,7 @@ group :development, :test do
   gem 'spring-commands-rspec'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'sqlite3'
 end
 
 group :test do

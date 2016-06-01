@@ -5,6 +5,23 @@ body {
     padding-top: 52px;
 }
 
+.jumbotron{
+    opacity: 0;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 299px;
+    padding-right: 15px;
+    margin-top: 280px;
+    font-family: 'Black Ops One', cursive;
+
+}
+h1{
+    font-size: 85px;
+    color: #6793a0;
+}
+
 .alert-error {
 background-color: #f2dede;
 border-color: #eed3d7;
@@ -38,4 +55,8 @@ background-color: #dff0d8;
 border-color: #d6e9c6;
 color: #468847;
 text-align: left;
+}
+
+.body1 {
+    background-image: url("https://charlesdoilain.files.wordpress.com/2015/08/fitness3.jpg");
 }
